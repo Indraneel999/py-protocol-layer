@@ -13,7 +13,7 @@ class Config:
     SECRET_KEY = os.getenv('SECRET_KEY', 'my_precious_secret_key')
     DEBUG = False
     COOKIE_EXPIRY = 60000
-    PORT = 9900
+    PORT = 5003
     FLASKS3_BUCKET_NAME = os.getenv('static_bucket_name')
     FLASKS3_FILEPATH_HEADERS = {r'.css$': {'Content-Type': 'text/css; charset=utf-8'},
                                 r'.js$': {'Content-Type': 'text/javascript'}}
